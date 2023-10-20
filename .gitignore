@@ -1,0 +1,48 @@
+.history
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform/providers/*
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+terraform.tfstate.*
+terraform.tfstate.backup
+
+# Ignore .terraform directory
+**/.terraform/*
+
+# Ignore .tfvars files
+*.tfvars
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore files that should be ignored according to the Terraform documentation
+# See: https://www.terraform.io/docs/cli/config/config-file.html#ignore_files
+.terraformrc
+terraform.rc
+
+# Ignore crash log files
+crash.log
+
+# Ignore directories with .git in them
+*/.git/
+
+# Ignore .swp files (Vim swap files)
+*.swp
+
+# Ignore .DS_Store files (macOS Finder metadata)
+.DS_Store
+
+# Ignore .vscode settings
+.vscode/
+
+# Ignore .idea settings (for JetBrains IDEs)
+.idea/
