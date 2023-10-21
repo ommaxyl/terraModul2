@@ -1,7 +1,8 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
-resource "aws_vpc" "example" {
-  
+resource "aws_vpc" "myVPC" {
+  cidr_block = var.my_vpc_cidr_block
+
 }

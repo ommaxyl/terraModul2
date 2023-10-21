@@ -1,4 +1,3 @@
-
 variable "ami_value" {
   description = "value for the ami"
 }
