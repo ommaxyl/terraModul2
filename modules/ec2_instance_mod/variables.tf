@@ -9,3 +9,7 @@ variable "instance_type_value" {
 variable "my_subnet_id_value" {
   description = "the id for my subnet"
 }
+
+variable "proj_key_name" {
+  description = "The key name that is already set up in your environment"
+}
