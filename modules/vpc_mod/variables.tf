@@ -9,4 +9,3 @@ variable "my_public_subnet" {
 variable "my_private_subnet" {
   description = "This is my first private subnet"
 }
-

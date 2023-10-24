@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"
+  region = var.my_region
 }
 
 module "myVPC" {
@@ -16,3 +16,4 @@ module "myVPC" {
   my_subnet_id_value = "subnet-07cfb090808aeadbb"
 }
 */
+
